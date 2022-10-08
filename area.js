@@ -4,7 +4,7 @@ const output = document.querySelector('#area-Of-triangle');
 
 
 function sumOfBaseAndHeight(base, height){
-    const sum = base + height;
+    const sum = base * height;
     return sum;
 }
 function calculateArea(){
