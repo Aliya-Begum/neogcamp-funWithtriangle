@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+:root{
+    --primary-color : #9333ea;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navigation{
+    background-color: rgba(0,0,0,0.2);
+}
+a{
+    text-decoration: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.6rem;
+}
+.navigation .nav-brand{
+   font-size: 32px;
+   padding: 0 1.5rem;
+   padding-top: 1rem;
+   color: black;
+   font-weight: bolder;
+}
+
+.navigation .link{
+    color: black;
+    font-size: 19px;
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+}
+
+.navigation ul{
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    margin-block-start: 0;
+    list-style-type: none;
+}
+
+.navigation .nav{
+    text-align: right;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.labels{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-angle{
+    display: block;
+    width: 18%;
+    margin-left: 40%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#is-triangle-btn{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    width: 140px;
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+#output-box{
+    height: 30px;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.questions{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 18px;
+}
+.options{
+    text-align: center;
+    /* margin-top: 2rem; */
+    font-size: 18px;
+}
+#submit-btn {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+h3{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#output{
+    height: 30px;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer {
+    text-align: center;
+}
+
+.img {
+    max-width: 2.5rem
+}
+
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.list-inline {
+    display: inline;
+}
