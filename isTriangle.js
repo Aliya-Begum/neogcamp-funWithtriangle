@@ -20,11 +20,11 @@ function calculateSumOfTriangle(angle1, angle2, angle3) {
             }
         }
         else{
-            output.innerText = "Invalid entry, Angle can not be 0. ";
+            output.innerText = "Invalid entry, Angle can not be less than or equal to 0 ";
         }
     }
     else{
-        output.innerText = "Please enter all three angles."
+        output.innerText = "Please enter all three angles"
     }
 }
 
