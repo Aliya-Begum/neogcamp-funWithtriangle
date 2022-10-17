@@ -22,7 +22,7 @@ function calculateHypotenuse(){
             output.innerText = "base and height should be greater than zero(0)"
         }
     }else{
-        output.innerText = "Please fill out both th fields"
+        output.innerText = "Please fill out both the fields"
     }
 }
 

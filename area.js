@@ -8,9 +8,21 @@ function sumOfBaseAndHeight(base, height){
     return sum;
 }
 function calculateArea(){
-    const sum = sumOfBaseAndHeight(Number(inputSides[0].value) , Number(inputSides[1].value));
+    var base = Number(inputSides[0].value);
+    var height = Number(inputSides[1].value)
+    if(base && height){
+        if(base > 0 && height > 0){
+            const sum = sumOfBaseAndHeight(base , height);
     const area = sum/2;
     output.innerText = "Area of the Triangle is " +area;
+        }else{
+            output.innerText = "base and height should be greater 0."
+        
+        }
+    }else{
+            output.innerText = "Please fill out both the fields."
+    }
+    
 
 }
 
