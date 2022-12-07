@@ -2,7 +2,8 @@
 
 A web app which helps you to learn about triangles. In this app you can play quiz, find hypotenuse of a triangle, area of a triangle and check whether the given angles form a triangle or not. This app made using HTML, CSS and VanillaJS.
 
-## Link - https://neogcamp-funwithtriangles.netlify.app/
+## Link 
+https://neogcamp-funwithtriangles.netlify.app/
 
 ## Technology used
 
